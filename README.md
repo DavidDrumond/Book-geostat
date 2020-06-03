@@ -1,1 +1,2 @@
-Book geostat
+# Livro-geoestat-stica
+Livro geoestatística 

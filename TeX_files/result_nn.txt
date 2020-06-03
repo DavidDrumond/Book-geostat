@@ -1,0 +1,10 @@
+> summary(nn$V.pred)
+        V.pred
+Min.       0.0
+1st Qu.   79.4
+Median   237.6
+3rd Qu.  445.8
+Max.    1528.1
+NA's       0.0
+> cellStats(nn$V.pred,stat='mean')
+[1] 287.9967

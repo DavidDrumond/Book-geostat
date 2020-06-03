@@ -1,0 +1,14 @@
+                  Parameters for SCATPLT
+                  **********************
+
+START OF PARAMETERS:
+Walker_Lake.txt                                       -file with data
+3   4   0    0                                                -  columns for X, Y, wt, third var.
+0   1.0e21                                                 -  trimming limits
+Scatter_walker.ps                                    -file for Postscript output
+0.0     18     0                                        -X min and max, (0=arith, 1=log)
+0.0     7     0                                        -Y min and max, (0=arith, 1=log)
+50                                 		             -plot every nth data point
+0.5                                                           -bullet size: 0.1(sml)-1(reg)-10(big)
+0.0      2.0                      	            -limits for third variable gray scale
+Scatterplot Cu(%)/Au(ppm)                   -title

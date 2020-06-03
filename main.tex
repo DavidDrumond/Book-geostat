@@ -1,0 +1,342 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The Legrand Orange Book
+% LaTeX Template
+% Version 2.3 (8/8/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Mathias Legrand (legrand.mathias@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Compiling this template:
+% This template uses biber for its bibliography and makeindex for its index.
+% When you first open the template, compile it from the command line with the 
+% commands below to make sure your LaTeX distribution is configured correctly:
+%
+% 1) pdflatex main
+% 2) makeindex main.idx -s StyleInd.ist
+% 3) biber main
+% 4) pdflatex main x 2
+%
+% After this, when you wish to update the bibliography/index use the appropriate
+% command above and make sure to compile with pdflatex several times 
+% afterwards to propagate your changes to the document.
+%
+% This template also uses a number of packages which may need to be
+% updated to the newest versions for the template to compile. It is strongly
+% recommended you update your LaTeX distribution if you have any
+% compilation errors.
+%
+% Important note:
+% Chapter heading images should have a 2:1 width:height ratio,
+% e.g. 920px width and 460px height.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,fleqn]{book} % Default font size and left-justified equations
+
+%----------------------------------------------------------------------------------------
+
+\input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage[portuguese]{babel}
+\usepackage{amsmath,amssymb, amsthm, amsfonts}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage[toc,page]{appendix}
+\usepackage{placeins}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{verbatim}
+\usepackage[nottoc]{tocbibind}
+\usepackage{quoting}
+\usepackage{hyperref}
+\hypersetup{colorlinks,citecolor=blue}
+
+
+
+% COMANDOS PARA QUOTING
+\usepackage{quoting}
+
+\newcommand*{\myquotingsource}{}
+\newenvironment{myquoting}[1]{%
+	\renewcommand*{\myquotingsource}{#1}
+	\begin{quoting}[font={itshape,raggedleft},leftmargin=0.5\linewidth,rightmargin=2em]%
+	}{%
+		\par\medskip
+		\myquotingsource
+	\end{quoting}%
+}
+
+
+
+\usepackage{pdfpages}
+
+
+
+
+% Comandos da bibliografia 
+
+
+\usepackage[]{natbib}
+\bibliographystyle{abbrvnat}
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+
+\includepdf[]{Capa}
+
+
+\begingroup
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth]{background}};
+\draw (current page.center) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering Geoestatística\\[15pt] % Book title
+{\Large Introdução aos princípios e aplicações em R, GSLIB e SGeMS}\\[20pt] % Subtitle
+{\huge David Alvarenga Drumond \\
+	   Fernanda Gontijo Fernandes Niquini \\
+   	   Roberto Mentzingen Rolo \\ 
+       João Felipe Coimbra Leite Costa }}}; % Author name
+\end{tikzpicture}
+\vfill
+\endgroup
+
+%----------------------------------------------------------------------------------------
+%	COPYRIGHT PAGE
+%----------------------------------------------------------------------------------------
+
+\newpage
+\thispagestyle{empty}
+
+\begin{center}
+	\Large \bf { David Alvarenga Drumond \\
+				 Fernanda Gontijo Fernandes Niquini \\
+				 Roberto Mentzingen Rolo }
+\end{center}
+
+\vspace{4.0cm}
+
+\begin{center}
+	{\LARGE \bfseries Geoestatística - Introdução aos princípios e aplicações em R, GSLIB e SGeMS }
+\end{center}
+\vspace {4.0cm}
+\begin{center}
+	\Large 1$\^{a}$ edição
+\end{center}
+\vspace{6.0cm}
+	
+\begin{center}
+	\Large {Belo horizonte}\\
+	\Large {22/09/2017}
+\end{center}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+% Ficha Catalográfica
+\newpage
+\thispagestyle{empty}
+\null\vfill
+
+\begin{comment}
+\begin{center}
+	\begin{tabular}{|p{12.5cm}|}%{p{12cm}}
+		\hline
+		\begin{small}
+			\begin{verbatim}
+			#D249i	Drumond, David
+			#Geoestatística - Introdução aos princípios / 
+			David A. Drumond. - Belo Horizonte : O Autor, 2017. 
+			117 p. 
+			
+			ISBN: 978-85-923922-0-8
+			
+			
+			1. Engenharia de Minas . 2. Geologia. 3. Geoestatística.
+			I. Título.
+		
+			CDD: 550
+			\end{verbatim}
+		\end{small}
+		\\ \hline
+	\end{tabular}
+\end{center}
+\end{comment}
+
+\setcounter{page}{2} %truque para não numerar a página
+
+\newpage
+\thispagestyle{empty}
+\vspace*{\fill}
+
+{ \raggedleft
+	
+	
+	\textit{Aos meus pais pelo eterno carinho e apoio.}
+	
+	~
+}
+
+
+\newpage
+\thispagestyle{empty}
+\vspace*{\fill}
+
+{ \raggedleft
+	
+	
+	\textit{Sempre que te perguntarem se podes fazer um trabalho, \\
+		respondas que sim e te ponhas em seguida a aprender como se faz. \\
+		F. Roosevelt}
+	
+	~
+}
+
+
+
+\newpage
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+%\usechapterimagefalse % If you don't want to include a chapter image, use this to toggle images off - it can be enabled later with \usechapterimagetrue
+
+\chapterimage{chapter_head_1.pdf} % Table of contents heading image
+
+\pagestyle{empty} % No headers
+
+\tableofcontents % Print the table of contents itself
+
+\cleardoublepage % Forces the first chapter to start on an odd page so it's on the right
+
+\pagestyle{fancy} % Print headers again
+
+
+%----------------------------------------------------------------------------------------
+%	PART
+%----------------------------------------------------------------------------------------
+
+
+\chapter{Prefácio}
+
+\begin{myquoting}{...}
+	Se seus problemas têm solução, aprendes a solucioná-los, se não têm solução, aprendes a não preocupar. Os problemas só surgem quando não se aprende a agir, no primeiro caso aja, no segundo contemple.
+\end{myquoting}
+
+A geoestatística é, sem dúvida, uma das mais belas ferramentas para trabalharmos com incerteza em projetos que envolvem análise espacial e engenharia. Não é somente um ponto de partida para analisar e avaliar, mas uma proposição da humildade humana, nossa capacidade da incompreensão extensiva do universo a nossa volta. 
+
+Quando pensamos na ciência tradicional, desenvolvida nos primórdios do século XVIII com o advento do iluminismo, vemos claramente o ser humano tentando desenvolver ferramentas para explicar o universo em suas nuâncias, criando modelos físicos e matemáticos das representações de problemas reais. Estes modelos, sólidos e claros, possuem uma capacidade incrível de reprodutibilidade, podendo ser aplicados em diferentes contextos e situações. Apesar desta maleabilidade, em certos momentos problemas complexos nos foram apresentados, sendo incapazes de serem descritos pelas formas simples por estes antigos modelos. 
+
+As técnicas geoestatísticas, como as demais ferramentas modernas de estatística, marcam um ponto na história, quando assumimos a impossibilidade de entender todos os processos, mas que possamos descrevê-los de forma verossímil, criando modelos matemáticos que se aproximam da realidade, desconhecida e muitas vezes intangível. Os modelos estatísticos neste caso não são reprodutíveis, sendo impossível a um avaliador aplicar o mesmo modelo para diferentes depósitos minerais. No entanto, as técnicas são simples e eficientes, reproduzindo padrões sobre a geologia e fenômenos espaciais de forma eficiente.
+
+O surgimento da geoestatística está diretamente relacionado aos trabalhos do professor \textcolor{blue}{George Matheron} a partir de análises sobre estudos estatísticos de \textcolor{blue}{Singel} em minas de ouro da África do Sul. Depósitos de ouro são conhecidos pela sua complexidade geológica, apresentando alta variabilidade em suas propriedades químicas e geológicas. Os métodos clássicos de avaliação de recursos se demonstraram ineficientes para lidar com esta complexidade do problema, pois consideravam apenas questões geométricas de disposição das amostras, sem considerar sua interdependência espacial. Surgiu então a geoestatística, que pretendia adicionar informação não apenas pelo posicionamento de amostras, mas pela sua dependência espacial. 
+
+Diferentemente dos métodos estatísticos clássicos, em que consideramos as amostras independentes entre si, na geoestatística consideramos que o posicionamento espacial, volume das amostras e orientação possuem forte relação com as avaliações que realizamos. Esta proposição torna os métodos geoestatísticos ainda eficientes por mais de 50 anos de desenvolvimento nas avaliações de recursos minerais, pois corrobora com a questão física de formação dos controles geológicos destes depósitos.  
+
+Após anos de desenvolvimento nas técnicas geoestatísticas, diferentes pesquisas e conhecimentos foram derivados das técnicas iniciais de Matheron. Mesmo assim, esta disciplina ainda parece obscura nos cursos de engenharia de minas, geologia e geografia não somente no Brasil como no mundo. Quando focamos no contexto brasileiro, o problema se acentua, pois são poucas as bibliografias escritas em português sobre este assunto. Pensando nisso, nós alunos do curso de pós-graduação Engenharia de Minas da Universidade Federal do Rio Grande do Sul, juntamente com a orientação dos profissionais da universidade, iniciamos este livro como um projeto para  uma série de publicações sobre \textcolor{blue}{Geoestatística} , \textcolor{blue}{Planejamento de Lavra}, \textcolor{blue}{Amostragem de jazidas}, \textcolor{blue}{Métodos de cubagem} entre outras disciplinas da mineração. 
+
+ A abordagem adotada neste livro de \textcolor{blue}{Introdução a Geoestatística} envolve a chamada geoestatística linear clássica, que envolve desde métodos tradicionais de geoestatística, de caracterização da continuidade espacial e da krigagem, principalmente ordinária e simples, que envolvem principalmente os primeiros trabalhos desenvolvidos na década de 70 pelo professor George Matheron. Ao final do livro temos seções dedicadas exclusivamente para a apresentação da geoestatística em softwares gratuitos e linguagem de programação em R. O livro se desenvolve nos seguintes capítulos:
+
+\begin{itemize}
+	\item \textbf{Capítulo 2}: Este capítulo apresenta uma introdução a respeito da ciência da geoestatística, explicando os principais conceitos para entendermos algumas questões chaves, como \textit{O que é a geoestatística?}, \textit{O que podemos fazer com a geoestestatística?}, \textit{Como podemos utilizar a geoestatística?}
+	\item \textbf{Capítulo 3}:  Apresenta o objeto principal do estudo da geoestatística, a teoria das variáveis regionalizadas. Apresentamos a conceituação e o formalismo matemático deste conjunto de técnicas. 
+	\item \textbf{Capítulo 4}:  Inserimos conceitos iniciais sobre estatística univariada, ou seja, as técnicas utilizadas para avaliação de apenas uma única variável. Para isso mostramos estatísticas gráficas, estatísticas pontuais, enfocando principalmente no contexto da mineração. 
+	\item \textbf{Capítulo 5}:  Inserimos conceitos iniciais sobre estatística multivariada, ou seja, aquela que analisa informações conjuntas de duas ou mais variáveis. São apresentadas estatísticas pontuais, estatísticas gráficas, entre outras ferramentas específicas deste assunto. 
+	\item \textbf{Capítulo 6}:  Neste capítulo apresentamos as principais formas de análise de agrupamento para amostras espaciais. O objetivo destas técnicas é criar condições para reduzir o efeito de amostragens localizadas e ponderar as estatísticas para que indiquem  sua representação espacial verdadeira.
+	\item \textbf{Capítulo 7}:  Introduzimos os conceitos de continuidade espacial e dependência espacial das amostras, mostrando por exemplo, a estimativa e modelagem de funções variograma e covariograma. 
+	\item \textbf{Capítulo 8}:  Apresentamos as principais técnicas de estimativa geoestatística linear, como krigagem simples e ordinária. 
+	\item \textbf{Capítulo 9}:  Introduzimos os conceitos de mudança de suporte, e as principais ferramentas para analisar a mudança de volumes estimados. 
+	\item \textbf{Capítulo 10}: Apresentamos as principais técnicas utilizadas para avaliar os modelos krigados e estimativas realizadas, como por exemplo, as curvas de teor e tonelagem comumente utilizadas nos trabalhos de avaliação de recursos.
+	
+\end{itemize}
+
+
+A seção final de cada capítulo apresenta uma série de exercícios com arquivos de dados apresentados no material de apoio deste livro. Ao final destes capítulos apresentamos os apêndices A, B e C, com avaliações geoestatísticas realizadas no depósito \textit{Walker Lake}. Os dados deste depósito podem ser encontrados junto com o material de apoio.
+
+
+
+\include{./TeX_files/chapter00}
+\include{./TeX_files/chapter01}
+\include{./TeX_files/chapter02}
+\include{./TeX_files/chapter03}
+\include{./TeX_files/chapter04}
+\include{./TeX_files/chapter05}
+\include{./TeX_files/chapter06}
+\include{./TeX_files/chapter07}
+\include{./TeX_files/chapter08}
+\include{./TeX_files/chapter09}
+\include{./TeX_files/chapter10}
+\include{./TeX_files/chapter11}
+\include{./TeX_files/chapter12}
+\include{./TeX_files/chapter13}
+
+
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+
+\bibliographystyle{apastyle}
+\bibliography{bibliography}
+
+
+%\nocite{*}
+%\addcontentsline{toc}{chapter}{\textcolor{ocre}{Bibliography}}
+
+%------------------------------------------------
+
+%\section*{Articles}
+%\addcontentsline{toc}{section}{Articles}
+%\printbibliography[heading=bibempty,type=article]
+
+%------------------------------------------------
+
+%\section*{Books}
+%\addcontentsline{toc}{section}{Books}
+%\printbibliography[heading=bibempty,type=book]
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	INDEX
+%----------------------------------------------------------------------------------------
+
+\cleardoublepage
+\phantomsection
+\setlength{\columnsep}{0.75cm}
+\addcontentsline{toc}{chapter}{\textcolor{ocre}{Index}}
+\printindex
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

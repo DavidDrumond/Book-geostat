@@ -1,0 +1,20 @@
+                  Parameters for KB2D
+                  *******************
+
+START OF PARAMETERS:
+Walker_Lake.txt          -file with data
+1   2   3                    -   columns for X, Y, and variable
+-1.0e21   1.0e21             -   trimming limits
+0                            -debugging level: 0,1,2,3
+kb2d.dbg                     -file for debugging output
+kb2d.out                     -file for kriged output
+25    0.1  10               -nx,xmn,xsiz
+30    0.1  10               -ny,ymn,ysiz
+1    1                       -x and y block discretization
+2    8                       -min and max data for kriging
+30.0                         -maximum search radius
+1   2.303                     -0=SK, 1=OK,  (mean if SK)
+2    0.2                     -nst, nugget effect
+1    3  157.5  15  10   -it, c, azm, a_max, a_min
+1    5.8 157.5   60  30    -it, c, azm, a_max, a_min
+

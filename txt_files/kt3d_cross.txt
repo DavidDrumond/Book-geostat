@@ -1,0 +1,31 @@
+                  Parameters for KT3D
+                  *******************
+
+START OF PARAMETERS:
+Walker_Lake.txt              -file with data
+0  1  2  0  3  0                 -   columns for DH,X,Y,Z,var,sec var
+-1.0e21   1.0e21                 -   trimming limits
+1                                -option: 0=grid, 1=cross, 2=jackknife
+xvk.dat                          -file with jackknife data
+1   2   0    3    0              -   columns for X,Y,Z,vr and sec var
+3                                -debugging level: 0,1,2,3
+kt3d.dbg                         -file for debugging output
+kt3d.out                         -file for kriged output
+25   0.1    10                  -nx,xmn,xsiz
+30   0.1    10                  -ny,ymn,ysiz
+1    0.0    1.0                  -nz,zmn,zsiz
+1    1      1                    -x,y and z block discretization
+2    3                          -min, max data for kriging
+2                                -max per octant (0-> not used)
+40.0  30.0 10.0                -maximum search radii
+157.5   0.0   0.0                 -angles for search ellipsoid
+0     2.302                      -0=SK,1=OK,2=non-st SK,3=exdrift
+0 0 0 0 0 0 0 0 0                -drift: x,y,z,xx,yy,zz,xy,xz,zy
+0                                -0, variable; 1, estimate trend
+extdrift.dat                     -gridded file with drift/mean
+4                                -  column number in gridded file
+2    0.2                     -nst, nugget effect
+1    3  157.5  0  0   -it, c, azm, a_max, a_min
+       15   10.0  1       -a_hmax, a_hmin, a_vert
+1    5.8 157.5   0  0    -it, c, azm, a_max, a_min
+       60  30  1        -a_hmax, a_hmin, a_vert

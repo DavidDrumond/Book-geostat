@@ -1,0 +1,175 @@
+\begin{thebibliography}{29}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alencar(2014)]{alencar2014teoria}
+M.~S.~d. Alencar.
+\newblock Teoria de conjuntos, medida e probabilidade.
+\newblock \emph{S{\~a}o Paulo: Ed. {\'E}rica}, 2014.
+
+\bibitem[Borradaile(2013)]{borradaile2013statistics}
+G.~J. Borradaile.
+\newblock \emph{Statistics of earth science data: their distribution in time,
+  space and orientation}.
+\newblock Springer Science \& Business Media, 2013.
+
+\bibitem[Brassel and Reif(1979)]{brassel1979procedure}
+K.~E. Brassel and D.~Reif.
+\newblock A procedure to generate thiessen polygons.
+\newblock \emph{Geographical Analysis}, 11\penalty0 (3):\penalty0 289--303,
+  1979.
+
+\bibitem[Carrasco et~al.(2008)Carrasco, Chil{\`e}s, and
+  S{\'e}guret]{carrasco2008additivity}
+P.~Carrasco, J.-P. Chil{\`e}s, and S.~A. S{\'e}guret.
+\newblock Additivity, metallurgical recovery, and grade.
+\newblock In \emph{8th international Geostatistics Congress}, pages on--CD,
+  2008.
+
+\bibitem[Casella and Berger(2010)]{casella2010inferencia}
+G.~Casella and R.~L. Berger.
+\newblock Infer{\^e}ncia estat{\'\i}stica.
+\newblock \emph{S{\~a}o Paulo: Cengage Learning}, 2010.
+
+\bibitem[Chiles and Delfiner(2009)]{chiles2009geostatistics}
+J.-P. Chiles and P.~Delfiner.
+\newblock \emph{Geostatistics: modeling spatial uncertainty}, volume 497.
+\newblock John Wiley \& Sons, 2009.
+
+\bibitem[Delhomme(1978)]{delhomme1978applications}
+J.-P. Delhomme.
+\newblock Applications de la th{\'e}orie des variables r{\'e}gionalis{\'e}es
+  dans les sciences de l'eau.
+\newblock 1978.
+
+\bibitem[DeutschCV(1998)]{deutschcv1998gslib}
+J.~DeutschCV.
+\newblock Gslib: Geostatisticalsoftware libraryanduser'sguide., 1998.
+
+\bibitem[FEITOSA et~al.(2011)FEITOSA, NASCIMENTO, and
+  BRUNO-ALFONSO]{feitosa2011teoria}
+H.~d.~A. FEITOSA, M.~d. NASCIMENTO, and A.~BRUNO-ALFONSO.
+\newblock Teoria dos conjuntos: sobre a fundamenta{\c{c}}ao matem{\'a}tica e a
+  constru{\c{c}}ao de conjuntos num{\'e}ricos.
+\newblock \emph{Rio de Janeiro: Editora Ci{\^e}ncia Moderna}, 2011.
+
+\bibitem[Figueira(1998)]{figueira1998identificaccao}
+M.~M.~C. Figueira.
+\newblock Identifica{\c{c}}{\~a}o de outliers.
+\newblock \emph{Millenium}, 1998.
+
+\bibitem[Goovaerts(1997)]{goovaerts1997geostatistics}
+P.~Goovaerts.
+\newblock \emph{Geostatistics for natural resources evaluation}.
+\newblock Oxford University Press on Demand, 1997.
+
+\bibitem[Gustavsson et~al.(1997)Gustavsson, Lampio, and
+  Tarvainen]{gustavsson1997visualization}
+N.~Gustavsson, E.~Lampio, and T.~Tarvainen.
+\newblock Visualization of geochemical data on maps at the geological survey of
+  finland.
+\newblock \emph{Journal of Geochemical Exploration}, 59\penalty0 (3):\penalty0
+  197--207, 1997.
+
+\bibitem[Gy(2012)]{gy2012sampling}
+P.~Gy.
+\newblock \emph{Sampling of particulate materials theory and practice},
+  volume~6.
+\newblock Elsevier, 2012.
+
+\bibitem[Heylighen(1997)]{heylighen1997occam}
+F.~Heylighen.
+\newblock Occam’s razor.
+\newblock \emph{Principia cybernetica web}, 1997.
+
+\bibitem[Hustrulid et~al.(2006)Hustrulid, Kuchta, and
+  Martin]{hustrulid2006open}
+W.~Hustrulid, M.~Kuchta, and R.~Martin.
+\newblock Open pit mine planning and design, volume 1: Fundamentals.
+\newblock \emph{CRC Press Taylor \& Francis Group}, 6000:\penalty0 33487--2742,
+  2006.
+
+\bibitem[Isaaks and Srivastava(1989)]{isaaks1989applied}
+E.~H. Isaaks and R.~M. Srivastava.
+\newblock Applied geostatistics.
+\newblock 1989.
+
+\bibitem[Journel and Huijbregts(1978)]{journel1978mining}
+A.~G. Journel and C.~J. Huijbregts.
+\newblock \emph{Mining geostatistics}.
+\newblock Academic press, 1978.
+
+\bibitem[Krige(1960)]{krige1960departure}
+D.~Krige.
+\newblock On the departure of ore value distributions from the lognormal model
+  in south african gold mines.
+\newblock \emph{Journal of the Southern African Institute of Mining and
+  Metallurgy}, 61\penalty0 (4):\penalty0 231--244, 1960.
+
+\bibitem[Machado(2012)]{machado2012alternativa}
+R.~d.~S. Machado.
+\newblock Uma alternativa para a estimativa de teores em dep{\'o}sitos de ouro:
+  Geoestat{\'\i}stica param{\'e}trica de campo.
+\newblock 2012.
+
+\bibitem[Maranhao(1985)]{maranhao1985introduccao}
+R.~J.~L. Maranhao.
+\newblock \emph{Introdu{\c{c}}{\~a}o {\`a} pesquisa mineral}.
+\newblock Banco do Nordeste do Brasil SA Escrit{\'o}rio T{\'e}cnico de Estudos
+  Econ{\^o}micos do~…, 1985.
+
+\bibitem[Matheron(1963)]{matheron1963principles}
+G.~Matheron.
+\newblock Principles of geostatistics.
+\newblock \emph{Economic geology}, 58\penalty0 (8):\penalty0 1246--1266, 1963.
+
+\bibitem[Morris et~al.(2000)Morris, Ebert, and
+  Rheingans]{morris2000experimental}
+C.~J. Morris, D.~S. Ebert, and P.~L. Rheingans.
+\newblock Experimental analysis of the effectiveness of features in chernoff
+  faces.
+\newblock In \emph{28th AIPR Workshop: 3D Visualization for Data Exploration
+  and Decision Making}, volume 3905, pages 12--17. International Society for
+  Optics and Photonics, 2000.
+
+\bibitem[Pyrcz and Deutsch(2003)]{pyrcz2003declustering}
+M.~Pyrcz and C.~Deutsch.
+\newblock Declustering and debiasing.
+\newblock \emph{Newsletter}, 19, 2003.
+
+\bibitem[Rendu(2014)]{rendu2014introduction}
+J.-M. Rendu.
+\newblock \emph{An introduction to cut-off grade estimation}.
+\newblock Society for Mining, Metallurgy, and Exploration, 2014.
+
+\bibitem[Rossi and Deutsch(2013)]{rossi2013mineral}
+M.~E. Rossi and C.~V. Deutsch.
+\newblock \emph{Mineral resource estimation}.
+\newblock Springer Science \& Business Media, 2013.
+
+\bibitem[Srivastava and Parker(1989)]{srivastava1989robust}
+R.~M. Srivastava and H.~M. Parker.
+\newblock Robust measures of spatial continuity.
+\newblock In \emph{Geostatistics}, pages 295--308. Springer, 1989.
+
+\bibitem[Susaeta et~al.(2008)Susaeta, Rubio, Pais, and
+  Enriquez]{susaeta2008dilution}
+A.~Susaeta, E.~Rubio, G.~Pais, and J.~Enriquez.
+\newblock Dilution behaviour at codelco panel cave mines.
+\newblock \emph{Proceedings of MassMin 2008}, pages 167--178, 2008.
+
+\bibitem[Weisberg(2005)]{weisberg2005applied}
+S.~Weisberg.
+\newblock \emph{Applied linear regression}, volume 528.
+\newblock John Wiley \& Sons, 2005.
+
+\bibitem[Yamamoto(2001)]{yamamoto2001avaliaccao}
+J.~K. Yamamoto.
+\newblock \emph{Avalia{\c{c}}{\~a}o e classifica{\c{c}}{\~a}o de reservas
+  minerais}, volume~38.
+\newblock Edusp, 2001.
+
+\end{thebibliography}

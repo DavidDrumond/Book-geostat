@@ -1,0 +1,299 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {portuguese}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.1}Introdu\IeC {\c c}\IeC {\~a}o}{5}{section.0.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Estimativa de dep\IeC {\'o}sitos minerais}{11}{chapter.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.0.1}Introdu\IeC {\c c}\IeC {\~a}o}{11}{subsection.1.0.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.0.2}Estimativa dos dep\IeC {\'o}sitos mienrais}{12}{subsection.1.0.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.0.3}Alguns conceitos iniciais sobre jazidas minerais}{13}{subsection.1.0.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Min\IeC {\'e}rio}{14}{section*.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Teor de corte}{14}{section*.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Continuidade}{16}{section*.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Dilui\IeC {\c c}\IeC {\~a}o}{16}{section*.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Recursos e reservas minerais}{16}{section*.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Unidade Seletiva de minera\IeC {\c c}\IeC {\~a}o}{17}{section*.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Precis\IeC {\~a}o e Exatid\IeC {\~a}o}{17}{section*.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Softwares de Minera\IeC {\c c}\IeC {\~a}o}{18}{section.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Exerc\IeC {\'\i }cios}{19}{section.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Vari\IeC {\'a}veis aleat\IeC {\'o}rias regionalizadas}{21}{chapter.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Introdu\IeC {\c c}\IeC {\~a}o}{21}{section.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Vari\IeC {\'a}vel aleat\IeC {\'o}ria regionalizada}{23}{section.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Hip\IeC {\'o}tese de estacionaridade}{24}{section.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Decomposi\IeC {\c c}\IeC {\~a}o da fun\IeC {\c c}\IeC {\~a}o aleat\IeC {\'o}ria}{25}{section.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Momentos estat\IeC {\'\i }sticos}{25}{section.2.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}A fun\IeC {\c c}\IeC {\~a}o variograma e a fun\IeC {\c c}\IeC {\~a}o covariograma}{27}{section.2.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.7}Valor de variograma m\IeC {\'e}dio}{28}{section.2.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.8}A vari\IeC {\^a}ncia de extens\IeC {\~a}o}{29}{section.2.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.9}Krigagem}{30}{section.2.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.10}A vari\IeC {\^a}ncia de dispers\IeC {\~a}o}{30}{section.2.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.11}Exerc\IeC {\'\i }cios}{31}{section.2.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Estat\IeC {\'\i }stica univariada}{33}{chapter.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Valores outliers}{34}{section.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2} Descri\IeC {\c c}\IeC {\~a}o espacial das amostras}{36}{section.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Histograma}{37}{section.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Estat\IeC {\'\i }sticas pontuais}{40}{section.3.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Medidas de tend\IeC {\^e}ncia central}{41}{subsection.3.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.2}medidas de posi\IeC {\c c}\IeC {\~a}o}{41}{subsection.3.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.3}medidas de dispers\IeC {\~a}o}{42}{subsection.3.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.4}Conjugando estat\IeC {\'\i }sticas pontuais}{42}{subsection.3.4.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.5}Assimetria}{42}{subsection.3.4.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.6}Coeficiente de varia\IeC {\c c}\IeC {\~a}o}{43}{subsection.3.4.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Infer\IeC {\^e}ncia Estat\IeC {\'\i }stica}{43}{section.3.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.1}Fam\IeC {\'\i }lias de distribui\IeC {\c c}\IeC {\~o}es estat\IeC {\'\i }sticas}{44}{subsection.3.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Distribui\IeC {\c c}\IeC {\~a}o de Poisson}{44}{section*.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Distribui\IeC {\c c}\IeC {\~a}o Gaussiana }{44}{section*.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Distribui\IeC {\c c}\IeC {\~a}o Lognormal}{45}{section*.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Estimando a m\IeC {\'e}dia da popula\IeC {\c c}\IeC {\~a}o }{46}{section*.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.2}Teorema do limite Central}{46}{subsection.3.5.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Teste de hip\IeC {\'o}teses}{47}{section*.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Ajustando uma fun\IeC {\c c}\IeC {\~a}o de densidade de probabilidade a partir de dados}{48}{section*.14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Exerc\IeC {\'\i }cios}{48}{section.3.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Estat\IeC {\'\i }stica bivariada}{51}{chapter.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Gr\IeC {\'a}fico Q-Q plot}{51}{section.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Gr\IeC {\'a}fico p-p plot}{52}{section.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Gr\IeC {\'a}fico de dispers\IeC {\~a}o}{53}{section.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Regress\IeC {\~a}o linear }{54}{section.4.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Intervalo de seguran\IeC {\c c}a para a regress\IeC {\~a}o linear}{55}{section.4.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Regress\IeC {\~a}o linear m\IeC {\'u}ltipla}{56}{section.4.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.7}Coeficiente de correla\IeC {\c c}\IeC {\~a}o }{57}{section.4.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.8}Probabilidades condicionais e conjuntas}{58}{section.4.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.9}Teste qui-quadrado para independ\IeC {\^e}ncia entre vari\IeC {\'a}veis}{59}{section.4.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.10}Exerc\IeC {\'\i }cios}{60}{section.4.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}T\IeC {\'e}cnicas de desagrupamento}{63}{chapter.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Estat\IeC {\'\i }sticas desagrupadas}{63}{section.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Definindo os pesos de desagrupamento}{64}{section.5.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}M\IeC {\'e}todo dos pol\IeC {\'\i }gonos de influ\IeC {\^e}ncia}{64}{subsection.5.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}M\IeC {\'e}todo das c\IeC {\'e}lulas m\IeC {\'o}veis }{65}{subsection.5.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}Regulariza\IeC {\c c}\IeC {\~a}o de amostras }{66}{subsection.5.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Continuidade Espacial}{69}{chapter.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Defini\IeC {\c c}\IeC {\~a}o de continuidade espacial e variografia}{69}{section.6.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Depend\IeC {\^e}ncia espacial}{70}{section.6.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Hip\IeC {\'o}tese de estacionaridade}{70}{section.6.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}Fun\IeC {\c c}\IeC {\~o}es experimentais de continuidade espacial}{72}{section.6.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.1}Efeito dos dados sobre os valores experimentais}{72}{subsection.6.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.2}Fun\IeC {\c c}\IeC {\~o}es de continuidade espacial mais comuns}{73}{subsection.6.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.3}Outras fun\IeC {\c c}\IeC {\~o}es experimentais}{74}{subsection.6.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.4}Par\IeC {\^a}metros de busca}{76}{subsection.6.4.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.5}Modelagem de fun\IeC {\c c}\IeC {\~o}es de continuidade espacial}{78}{section.6.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5.1}Modelos de variogramas permiss\IeC {\'\i }veis}{78}{subsection.6.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5.2}Par\IeC {\^a}metros das fun\IeC {\c c}\IeC {\~o}es de continuidade}{78}{subsection.6.5.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5.3}Modelos de continuidade espacial mais comuns}{79}{subsection.6.5.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5.4}Anisotropia}{80}{subsection.6.5.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5.5}Fun\IeC {\c c}\IeC {\~o}es de continuidade espacial cruzadas}{81}{subsection.6.5.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5.6}Modelo linear de corregionaliza\IeC {\c c}\IeC {\~a}o}{82}{subsection.6.5.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.5.7}Modelagem autom\IeC {\'a}tica de variogramas}{82}{subsection.6.5.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Krigagem}{85}{chapter.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Introdu\IeC {\c c}\IeC {\~a}o}{85}{section.7.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Krigagem Ordin\IeC {\'a}ria}{87}{section.7.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Krigagem Simples}{88}{section.7.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.4}Krigagem de blocos}{89}{section.7.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.5}Influ\IeC {\^e}ncia nos pesos da krigagem}{90}{section.7.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.1}Influ\IeC {\^e}ncia do modelo de continuidade espacial nos pesos}{90}{subsection.7.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.2}Influ\IeC {\^e}ncia dos par\IeC {\^a}metros do variograma}{91}{subsection.7.5.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.3}Efeito da geometria das amostras}{93}{subsection.7.5.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.6}Estrat\IeC {\'e}gia de procura}{95}{section.7.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.7}Valida\IeC {\c c}\IeC {\~a}o da krigagem}{97}{section.7.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.7.1}Verifica\IeC {\c c}\IeC {\~a}o do comportamento dos mapas krigado e das amostras}{97}{subsection.7.7.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.7.2}Compara\IeC {\c c}\IeC {\~a}o da m\IeC {\'e}dia global com a m\IeC {\'e}dia das amotras}{98}{subsection.7.7.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.7.3}An\IeC {\'a}lise de deriva de bandas do mapa}{98}{subsection.7.7.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.7.4}Valida\IeC {\c c}\IeC {\~a}o cruzada}{99}{subsection.7.7.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.7.5}Verifica\IeC {\c c}\IeC {\~a}o de pesos negativos}{99}{subsection.7.7.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Mudan\IeC {\c c}a de suporte}{101}{chapter.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Mudan\IeC {\c c}a de suporte}{101}{section.8.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.1}Corre\IeC {\c c}\IeC {\~a}o afim}{102}{subsection.8.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.2}Transforma\IeC {\c c}\IeC {\~a}o lognormal indireta}{102}{subsection.8.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Curva de teor e tonelagem}{102}{section.8.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.1}Curvas de teor e tonelagem derivadas de histogramas das amostras}{103}{subsection.8.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.2}Curvas de teor e tonelagem a partir de distribui\IeC {\c c}\IeC {\~a}o de probabilidades continuas das amostras}{104}{subsection.8.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.3}Curvas de teor e tonelagem baseadas na dispers\IeC {\~a}o dos blocos estimados}{104}{subsection.8.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.4}Curvas de teor e tonelagem baseadas na estimativa dos blocos}{104}{subsection.8.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.5}Erros associados \IeC {\`a} determina\IeC {\c c}\IeC {\~a}o da curva de teor-tonelagem}{105}{subsection.8.2.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Estimativa x Realidade}{107}{chapter.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Introdu\IeC {\c c}\IeC {\~a}o}{107}{section.9.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.1}Controle de teores do min\IeC {\'e}rio}{107}{subsection.9.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.2}Uso de fatores de compara\IeC {\c c}\IeC {\~a}o - forma cl\IeC {\'a}ssica}{108}{subsection.9.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.3}Uso de fatores de compara\IeC {\c c}\IeC {\~a}o - forma probabil\IeC {\'\i }stica}{109}{subsection.9.1.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.4}Cr\IeC {\'\i }ticas \IeC {\`a} geoestat\IeC {\'\i }stica}{109}{subsection.9.1.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Geoestat\IeC {\'\i }stica multivariada}{111}{appendix.A}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Modelos multivariados}{112}{section.A.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.1}Krigagem simples com m\IeC {\'e}dias locais vari\IeC {\'a}veis}{113}{subsection.A.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.2}Krigagem com deriva externa}{113}{subsection.A.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.3}Cokrigagem }{114}{subsection.A.1.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.4}Influ\IeC {\^e}ncia dos dados secund\IeC {\'a}rios}{115}{subsection.A.1.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.5}Condi\IeC {\c c}\IeC {\~a}o n\IeC {\~a}o tradicional e tradicional da cokrigagem}{116}{subsection.A.1.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.6}Cokrigagem Colocada}{116}{subsection.A.1.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Geoestat\IeC {\'\i }stica utilizando o software R}{117}{appendix.B}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.1}Introdu\IeC {\c c}\IeC {\~a}o}{117}{section.B.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.2}Instala\IeC {\c c}\IeC {\~a}o do R}{118}{section.B.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.3}RStudio}{119}{section.B.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.4}No\IeC {\c c}\IeC {\~o}es preliminares}{119}{section.B.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.5}O R como uma calculadora}{119}{section.B.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.6}Utilizando fun\IeC {\c c}\IeC {\~o}es no R}{120}{section.B.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.7}Operadores Relacionais}{120}{section.B.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.8}Operadores L\IeC {\'o}gicos no R}{121}{section.B.8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.9}Pedindo ajuda no R}{122}{section.B.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.10}Pacotes do R}{122}{section.B.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.11}Criando vetores}{122}{section.B.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.12}Condicional}{123}{section.B.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.13}Repeti\IeC {\c c}\IeC {\~o}es}{123}{section.B.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.14}Concatena\IeC {\c c}\IeC {\~a}o de fun\IeC {\c c}\IeC {\~o}es}{124}{section.B.14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.15}DataFrames}{124}{section.B.15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.16}Mapa de localiza\IeC {\c c}\IeC {\~a}o}{125}{section.B.16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.17}Histogramas}{128}{section.B.17}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.18}Boxplots}{129}{section.B.18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.19}Regress\IeC {\~a}o Linear}{130}{section.B.19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.20}Vizinho mais pr\IeC {\'o}ximo}{131}{section.B.20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.21}Variograma}{132}{section.B.21}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.22}Valida\IeC {\c c}\IeC {\~a}o Cruzada}{137}{section.B.22}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.23}Krigagem}{138}{section.B.23}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\leavevmode {\color {ocre}Bibliography}}{141}{appendix*.15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Articles}{141}{section*.16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Books}{141}{section*.17}% 
+\contentsfinish 

@@ -1,0 +1,96 @@
+\chapter{Estimativa x Realidade}
+
+\section{Introdução}
+
+A validação de qualquer estimativa somente pode ser feita compararando os dados estimados com os de produção, comumente referenciado na literatura como estudo de reconciliação. Essa metodologia é aplicada como uma rotina na mineração mas é raramente disponibilizada ao público ou ao meio acadêmico. Diferenças nos teores de elementos metálicos na mineração podem ser causa de quebra de contratos causando prejuízos absurdos para uma empresa.
+
+ Existem dois tipos de estudos de reconciliação: aqueles baseados em um banco de dados simulado e aqueles realizados diretamente do depósito mineral. Dados simulados podem comparar diversas formas de estimativa com situações idealizadas da realidade. Para simular um depósito mineral em um certo domínio basta definirmos uma continuidade espacial dos dados e uma distribuição de probabilidades dos dados. Para aproximar os dados simulados da realidade podemos adicionar amostras em suportes já definidos. Criando situações artificiais do depósito podemos verificar o espectro de incerteza que uma estimativa tem sobre a unidade seletiva de lavra.
+ 
+ Outra forma de validação é a comparação de dados de produção com os valores estimados. Antes do material proveniente da lavra, ou também chamado "run of mine", passar pelo processamento mineral, existem amostragens realizadas tanto na bancada como na entrada da usina. 
+ 
+ A essência da reconciliação de teores na mineração está em determinar a a variância entre os valores planejados e os de fato obtidos. Existem uma série de técnicas adotadas pelas empresas de mineração envolvendo os estudos de reconciliação, entre eles o controle de teores e de produção, uso de indicadores de performance, reconciliação de recursos e reservas e uso de fatores (mine call factors). 
+ 
+ \subsection{Controle de teores do minério}
+ 
+ O controle de teores do minério pode ser visto sob três perspectivas: temporal, espacial e física. 
+ 
+ Em relação ao controle temporal, temos os valores diretamente retirados da usina de beneficiamento ou da produção condicionados a um sequenciamento de produção. As diferenças entre os valores estimados e realizados depende o do suporte temporal considerado. Variações mais abruptas tendem a corresponder à tempos pequenos, tais como semanas ou meses, enquanto o planejamento a longo prazo tende a possuir menores variações.
+ 
+  
+ Sob a perpectiva espacial temos as diferenças entre os recursos planejados e realizados. Por questões operacionais nem sempre a topografia ou a geometria dos stopes são idênticas o que faz o suporte estimado diferente do suporte realizado. Afim de uma comparação é necessário antes de tudo mudar o suporte estimado para o suporte realizado. 
+ 
+ Considerando o controle físicos necessitamos que o controle das reservas estimadas estejam coerentes com a mineralização e as densidades prescritas no planejamento, perdas e diluições. A caracterização física depende de uma análise mais profunda, determinando os litotipos e as incertezas de massa e densidade. 
+ 
+ \subsection{Uso de fatores de comparação - forma clássica}
+ 
+ O uso de fatores de comparação, geralmente chamados de "Mine Call Factors" tem uso extensivo na indústria e são calculados separadamente dos modelos estimados e o controle diário de teores. A informação necessária para calcular esses fatores são tonelagens, teores do planejamento a longo prazo (modelo de blocos), do planejamento de curto prazo e pelo modelo de controle dos teores. Podemos definir quatro fatores de eficiência em que  \eqref{longo_prazo} demonstra a eficiência do planejamento a longo prazo:
+ 
+ \begin{equation} \label{longo_prazo}
+	 F_{1} = \frac{\text{Planejado a curto prazo}}{\text{Planejado a longo prazo}}
+ \end{equation} 
+ 
+ A equação \eqref{curto_prazo} demonstra o fator de eficiência para o planejamento de curto prazo
+ 
+  \begin{equation} \label{curto_prazo}
+  F_{2} = \frac{\textrm{Modelo de controle dos teores}}{\textrm{Planejado a curto prazo}}
+  \end{equation}
+  
+  A equação \eqref{mina} demonstra a eficiência da informação passada pela mina
+  
+    \begin{equation} \label{mina}
+    F_{3} = \frac{\textrm{Reportado pela mina}}{\textrm{Modelo de controle dos teores}}
+    \end{equation}
+    
+  A equação \eqref{usina} demonstra a eficiência da informação passada pela usina
+  
+     \begin{equation} \label{usina}
+     F_{4} = \frac{\textrm{Recebido pela usina}}{\textrm{Reportado pela mina}}
+     \end{equation}
+     
+  Esses fatores levam ao cálculo de de alguns indicadores de performance tais como a precisão do planejamento de longo-prazo (long-term model) \eqref{planejadolp}
+  
+  \begin{equation} \label{planejadolp}
+  F_{LTM} = F_{1}F_{2}F_{3}F_{4} \frac{\textrm{Recebido pela usina}}{\textrm{Planejado a longo prazo}}
+  \end{equation}
+  
+  Ou o indicador do planejamento de curto prazo (short-term model) \eqref{planejadocp} 
+  
+   \begin{equation} \label{planejadocp}
+   F_{STM} = F_{2}F_{3}F_{4} \frac{\textrm{Recebido pela usina}}{\textrm{Planejado a curto prazo}}
+   \end{equation}
+   
+   A utilização de fatores de performace na mineração sempre deve ser acompanhada da escala de tempo adequada. Para reconciliações a curto prazo é aceitável fazer a reconciliação para valores mensais enquanto para longo-prazo é de se esperar reconciliações de seis meses a um ano. 
+
+ \subsection{Uso de fatores de comparação - forma probabilística}
+ 
+ O modelo de Parhizkar é geralmente utilizado para realizar a reconciliação da mina baseada nos fatores mais importantes de incerteza na mineração, incluindo a variabilidade inerente, a incerteza estatística e a incerteza sistemática. 
+ 
+ A variabilidade inerente é geralmente representada pelo efeito pepita, utilizada nos métodos de estimativa. O modelo de correção geralmente é definido por:
+ 
+ 
+  \begin{equation} \label{modelo_corr}
+  G_{a} = C_{r}C_{s}G_{e}
+  \end{equation}
+  
+  Em que $G_{a}$ e $G_{e}$ representam os teores medidos e estimados respectivamente. $C_{r}$ e $C_{s}$ representam os fatores de correção para os erros estatísticos aleatórios e sistemáticos. Ou seja, $C_{r}$ representa a correção da variabilidade das amostras e $C_{s}$ representa a correção do viés. 
+  
+  Podemos obter então o coeficiente de variação para um valor medido de teor como sendo \eqref{model}
+  
+  \begin{equation}\label{model}
+  	  CV_{G_{a}} \simeq \sqrt{ \frac{s^2_{G_{e}}}{\bar{G_{e}}^2} + \frac{CV^2_{G_{e}}}{n} + CV^2_{C_{1}} +CV^2_{C_{2}}}
+  \end{equation}
+ 
+ Em que $\frac{s^2_{G_{e}}}{\bar{G_{e}}^2}$ representa a variabilidade inerente do fenômeno, dado pela relação da variância dos valores estimados e a média dos valores estimados, $\frac{CV^2_{G_{e}}}{n}$ representa o erro aleatório da estimativa dado pelo número de amostras n e o coeficiente de variação das estimativas e $CV^2_{C_{1}}$ e $CV^2_{C_{2}}$ representa o coeficiente de variação dos fatores de ajuste. 
+ 
+ 
+ \subsection{Críticas à geoestatística}
+ 
+ A geoestatística lida com a correlação espacial de variáveis aleatórias, a mineração é apenas um dos campos de aplicação deste modelo. Esta é utilizada extensivamente na determinação das estimativas de recurso/reserva, na simulação de depósitos minerais e como ferramentas de auxílio no planejamento e no beneficiamento mineral. Diferentemente dos métodos clássicos o ganho de informação com a krigagem é sem dúvida incomparável. No entanto, é de se esperar que como um modelo, tenha suas próprias falhas. Porventura, a geoestatística é o melhor conjunto de soluções possíveis para a estimativa e simulação de depósitos minerais e não há modelo equiparável na atualidade. Espera-se que com o desenvolvimento de novas metodologias científicas, novas ideias e tendências sobreponham como uma alternativa mais robusta para a solução de problemas na mineração.  
+ 
+ Uma das primeiras questões a ser criticada é a descrição da continuidade espacial do depósito mineral. Nos casos mais simples temos a anisotropia definida por um elipsoide, com eixos definidos em uma forma geométrica simples. A correlação espacial de depósitos minerais é naturalmente mais errática e diferente de uma forma geométrica definida. Algumas alternativas propostas atualmente envolvem o desenvolvimentos de mapas de covariâncias, tais que os seus valores sejam tomados diretamente por uma matriz de dados, e não por um modelo geométrico aproximado. 
+ 
+ Outra questão a ser criticada é o fato de que a geoestatística é necessariamente fundamentada no uso de estimadores lineares da variável aleatória. Por mais que existam metodologias não-lineares, estas geralmente levam à transformação de distribuições originais das amostras. Isto em certos casos pode acarretar em perda de sensibilidade das distribuições e necessita de valores de correção na transformação dos dados. Algumas metodologias novas, tais como simulação multi-ponto, tendem a evitar o uso de transformações nas distribuições amostrais.
+ 
+ A utilização adequada dos métodos geoestatísticos geralmente é custosa, mesmo que esta beneficie na segurança e na qualidade das avaliações do depósito mineral. A formação de um geoestatístico treinado requere um maior nível de educação, sendo a mão-de-obra disponibilizada para isso um pouco mais restrita. Os profissionais deste ramo geralmente precisam além da prática cotidiana do método, um alicerce nos conhecimentos básicos de matemática, estatística, programação e geologia. A aplicação adequada da geoestatística envolve não somente o conhecimento na disciplina, mas o reconhecimento e vivência do depósito mineral.  
+ 
+ Os procedimentos geoestatísticos são custosos quanto o tempo e demanda computacional. Em alguns casos como estimativas de recursos petrolíferos, as simulações podem durar até mesmo semanas. Em alguns casos o modelo de blocos estimados pode possuir tamanho de memória da ordem de GB. O processamento de dados é volumoso, sendo necessários algoritmos cada vez mais eficientes para lidar com o problema.  

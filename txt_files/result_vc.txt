@@ -1,0 +1,17 @@
+> summary(cv)
+Object of class SpatialPointsDataFrame
+Coordinates:
+  min max
+X   8 251
+Y   8 291
+Is projected: NA 
+proj4string : [NA]
+Number of points: 470
+Data attributes:
+   var1.pred         var1.var        observed         residual           zscore              fold      
+ Min.   :  25.9   Min.   :34698   Min.   :   0.0   Min.   :-644.93   Min.   :-2.98226   Min.   : 1.00  
+ 1st Qu.: 280.6   1st Qu.:42693   1st Qu.: 184.6   1st Qu.:-129.58   1st Qu.:-0.52658   1st Qu.: 5.00  
+ Median : 427.1   Median :47905   Median : 424.0   Median : -14.62   Median :-0.05799   Median :10.00  
+ Mean   : 445.5   Mean   :55645   Mean   : 435.3   Mean   : -10.24   Mean   :-0.02241   Mean   :10.24  
+ 3rd Qu.: 588.1   3rd Qu.:68170   3rd Qu.: 640.9   3rd Qu.: 125.54   3rd Qu.: 0.56901   3rd Qu.:15.00  
+ Max.   :1163.5   Max.   :98031   Max.   :1528.1   Max.   : 676.99   Max.   : 3.30583   Max.   :20.00 

@@ -1,0 +1,37 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+The style file: abbrvnat.bst
+A level-1 auxiliary file: ./TeX_files/chapter00.aux
+A level-1 auxiliary file: ./TeX_files/chapter01.aux
+A level-1 auxiliary file: ./TeX_files/chapter02.aux
+A level-1 auxiliary file: ./TeX_files/chapter03.aux
+A level-1 auxiliary file: ./TeX_files/chapter04.aux
+A level-1 auxiliary file: ./TeX_files/chapter05.aux
+A level-1 auxiliary file: ./TeX_files/chapter06.aux
+A level-1 auxiliary file: ./TeX_files/chapter07.aux
+A level-1 auxiliary file: ./TeX_files/chapter08.aux
+A level-1 auxiliary file: ./TeX_files/chapter09.aux
+A level-1 auxiliary file: ./TeX_files/chapter10.aux
+A level-1 auxiliary file: ./TeX_files/chapter11.aux
+A level-1 auxiliary file: ./TeX_files/chapter12.aux
+A level-1 auxiliary file: ./TeX_files/chapter13.aux
+Illegal, another \bibstyle command---line 249 of file main.aux
+ : \bibstyle
+ :          {apastyle}
+I'm skipping whatever remains of this command
+Database file #1: bibliography.bib
+Repeated entry---line 127 of file bibliography.bib
+ : @article{matheron1963principles
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 293 of file bibliography.bib
+ : @book{maranhao1985introduccao
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 308 of file bibliography.bib
+ : @book{yamamoto2001avaliaccao
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in delhomme1978applications
+Warning--empty journal in isaaks1989applied
+Warning--empty journal in machado2012alternativa
+(There were 4 error messages)

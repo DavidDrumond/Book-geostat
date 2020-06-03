@@ -1,0 +1,425 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{clark1979practical}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7eedde9d8f5f457e471e21be2c56b489}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Isobel},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Applied Science Publishers London}%
+      }
+      \strng{namehash}{7eedde9d8f5f457e471e21be2c56b489}
+      \strng{fullhash}{7eedde9d8f5f457e471e21be2c56b489}
+      \strng{bibnamehash}{7eedde9d8f5f457e471e21be2c56b489}
+      \strng{authorbibnamehash}{7eedde9d8f5f457e471e21be2c56b489}
+      \strng{authornamehash}{7eedde9d8f5f457e471e21be2c56b489}
+      \strng{authorfullhash}{7eedde9d8f5f457e471e21be2c56b489}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Practical geostatistics}
+      \field{volume}{3}
+      \field{year}{1979}
+      \true{nocite}
+    \endentry
+    \entry{coburn2005stochastic}{book}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=b88ad762c2ab6d8ae9788dc5322c18d1}{%
+           family={Coburn},
+           familyi={C\bibinitperiod},
+           given={Timothy\bibnamedelima C},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=0abbb81e9fb46df352a375513be8139b}{%
+           family={Yarus},
+           familyi={Y\bibinitperiod},
+           given={Jeffrey\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=48ce27351c4ef94963f6526bbb953e4f}{%
+           family={Chambers},
+           familyi={C\bibinitperiod},
+           given={Richard\bibnamedelima L},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AAPG}%
+      }
+      \strng{namehash}{76b2667b2772e47bd38e18facb076986}
+      \strng{fullhash}{76b2667b2772e47bd38e18facb076986}
+      \strng{bibnamehash}{76b2667b2772e47bd38e18facb076986}
+      \strng{authorbibnamehash}{76b2667b2772e47bd38e18facb076986}
+      \strng{authornamehash}{76b2667b2772e47bd38e18facb076986}
+      \strng{authorfullhash}{76b2667b2772e47bd38e18facb076986}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Stochastic modeling and geostatistics: principles, methods, and case studies, vol. II, AAPG computer applications in geology 5}
+      \field{volume}{5}
+      \field{year}{2005}
+      \true{nocite}
+    \endentry
+    \entry{cressie1985fitting}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1d684a7b784094856b0f4832104839c4}{%
+           family={Cressie},
+           familyi={C\bibinitperiod},
+           given={Noel},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{1d684a7b784094856b0f4832104839c4}
+      \strng{fullhash}{1d684a7b784094856b0f4832104839c4}
+      \strng{bibnamehash}{1d684a7b784094856b0f4832104839c4}
+      \strng{authorbibnamehash}{1d684a7b784094856b0f4832104839c4}
+      \strng{authornamehash}{1d684a7b784094856b0f4832104839c4}
+      \strng{authorfullhash}{1d684a7b784094856b0f4832104839c4}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the International Association for Mathematical Geology}
+      \field{number}{5}
+      \field{title}{Fitting variogram models by weighted least squares}
+      \field{volume}{17}
+      \field{year}{1985}
+      \true{nocite}
+      \field{pages}{563\bibrangedash 586}
+      \range{pages}{24}
+    \endentry
+    \entry{deutschcv1998gslib}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5f888ee93caa128b603f8b3399cdcc77}{%
+           family={DeutschCV},
+           familyi={D\bibinitperiod},
+           given={JournelAG},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {NewYork: OxfordUniversity Press}%
+      }
+      \strng{namehash}{5f888ee93caa128b603f8b3399cdcc77}
+      \strng{fullhash}{5f888ee93caa128b603f8b3399cdcc77}
+      \strng{bibnamehash}{5f888ee93caa128b603f8b3399cdcc77}
+      \strng{authorbibnamehash}{5f888ee93caa128b603f8b3399cdcc77}
+      \strng{authornamehash}{5f888ee93caa128b603f8b3399cdcc77}
+      \strng{authorfullhash}{5f888ee93caa128b603f8b3399cdcc77}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GSLIB: Geostatisticalsoftware libraryanduser'sguide.}
+      \field{year}{1998}
+      \true{nocite}
+    \endentry
+    \entry{draper1966applied}{book}{}
+      \name{author}{3}{}{%
+        {{hash=d341f9df4f1da061d5c4dac8ec1a6444}{%
+           family={Draper},
+           familyi={D\bibinitperiod},
+           given={Norman\bibnamedelima Richard},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=bbccd75a9de2f2f7c00f816dab8e475b}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Harry},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a5e37fb23ea7f8cc06df7c3ff241ce07}{%
+           family={Pownell},
+           familyi={P\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley New York}%
+      }
+      \strng{namehash}{abaaff0fa42bc44fc16a628573a578b6}
+      \strng{fullhash}{abaaff0fa42bc44fc16a628573a578b6}
+      \strng{bibnamehash}{abaaff0fa42bc44fc16a628573a578b6}
+      \strng{authorbibnamehash}{abaaff0fa42bc44fc16a628573a578b6}
+      \strng{authornamehash}{abaaff0fa42bc44fc16a628573a578b6}
+      \strng{authorfullhash}{abaaff0fa42bc44fc16a628573a578b6}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Applied regression analysis}
+      \field{volume}{3}
+      \field{year}{1966}
+      \true{nocite}
+    \endentry
+    \entry{goovaerts1997geostatistics}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7a881e6f141bca3a4c2ff385e241548b}{%
+           family={Goovaerts},
+           familyi={G\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press on Demand}%
+      }
+      \strng{namehash}{7a881e6f141bca3a4c2ff385e241548b}
+      \strng{fullhash}{7a881e6f141bca3a4c2ff385e241548b}
+      \strng{bibnamehash}{7a881e6f141bca3a4c2ff385e241548b}
+      \strng{authorbibnamehash}{7a881e6f141bca3a4c2ff385e241548b}
+      \strng{authornamehash}{7a881e6f141bca3a4c2ff385e241548b}
+      \strng{authorfullhash}{7a881e6f141bca3a4c2ff385e241548b}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Geostatistics for natural resources evaluation}
+      \field{year}{1997}
+      \true{nocite}
+    \endentry
+    \entry{gringarten2001teacher}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3f7bd1712567207238a3176fc451fb15}{%
+           family={Gringarten},
+           familyi={G\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod}}}%
+        {{hash=83be479d657bf3c3519b14b0a7a0342e}{%
+           family={Deutsch},
+           familyi={D\bibinitperiod},
+           given={Clayton\bibnamedelima V},
+           giveni={C\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{047fe53ef042c6125b1278906c502254}
+      \strng{fullhash}{047fe53ef042c6125b1278906c502254}
+      \strng{bibnamehash}{047fe53ef042c6125b1278906c502254}
+      \strng{authorbibnamehash}{047fe53ef042c6125b1278906c502254}
+      \strng{authornamehash}{047fe53ef042c6125b1278906c502254}
+      \strng{authorfullhash}{047fe53ef042c6125b1278906c502254}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Geology}
+      \field{number}{4}
+      \field{title}{Teacher's aide variogram interpretation and modeling}
+      \field{volume}{33}
+      \field{year}{2001}
+      \true{nocite}
+      \field{pages}{507\bibrangedash 534}
+      \range{pages}{28}
+    \endentry
+    \entry{isaaks1989applied}{article}{}
+      \name{author}{2}{}{%
+        {{hash=15ee32887822da1b4ffbc14709ee4cce}{%
+           family={Isaaks},
+           familyi={I\bibinitperiod},
+           given={Edward\bibnamedelima H},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=d23d3d2e545e6bba6264851f4e015045}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={R\bibnamedelima Mohan},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{63eb4356ca830d28824bbf983f48b752}
+      \strng{fullhash}{63eb4356ca830d28824bbf983f48b752}
+      \strng{bibnamehash}{63eb4356ca830d28824bbf983f48b752}
+      \strng{authorbibnamehash}{63eb4356ca830d28824bbf983f48b752}
+      \strng{authornamehash}{63eb4356ca830d28824bbf983f48b752}
+      \strng{authorfullhash}{63eb4356ca830d28824bbf983f48b752}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Applied geostatistics}
+      \field{year}{1989}
+      \true{nocite}
+    \endentry
+    \entry{journel1978mining}{book}{}
+      \name{author}{2}{}{%
+        {{hash=401ce611d627e7353ee496d2843ee4d4}{%
+           family={Journel},
+           familyi={J\bibinitperiod},
+           given={Andre\bibnamedelima G},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=9d90e19620468e6010666676765ed46c}{%
+           family={Huijbregts},
+           familyi={H\bibinitperiod},
+           given={Ch\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Academic press}%
+      }
+      \strng{namehash}{32088057f9d63bbdff0a8aad0d5510e5}
+      \strng{fullhash}{32088057f9d63bbdff0a8aad0d5510e5}
+      \strng{bibnamehash}{32088057f9d63bbdff0a8aad0d5510e5}
+      \strng{authorbibnamehash}{32088057f9d63bbdff0a8aad0d5510e5}
+      \strng{authornamehash}{32088057f9d63bbdff0a8aad0d5510e5}
+      \strng{authorfullhash}{32088057f9d63bbdff0a8aad0d5510e5}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mining geostatistics}
+      \field{year}{1978}
+      \true{nocite}
+    \endentry
+    \entry{matheron1963principles}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d0338063525106ec70892b82744b51d1}{%
+           family={Matheron},
+           familyi={M\bibinitperiod},
+           given={Georges},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Society of Economic Geologists}%
+      }
+      \strng{namehash}{d0338063525106ec70892b82744b51d1}
+      \strng{fullhash}{d0338063525106ec70892b82744b51d1}
+      \strng{bibnamehash}{d0338063525106ec70892b82744b51d1}
+      \strng{authorbibnamehash}{d0338063525106ec70892b82744b51d1}
+      \strng{authornamehash}{d0338063525106ec70892b82744b51d1}
+      \strng{authorfullhash}{d0338063525106ec70892b82744b51d1}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Economic geology}
+      \field{number}{8}
+      \field{title}{Principles of geostatistics}
+      \field{volume}{58}
+      \field{year}{1963}
+      \true{nocite}
+      \field{pages}{1246\bibrangedash 1266}
+      \range{pages}{21}
+    \endentry
+    \entry{mcbratney1981design}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7f5d498080ce164119ebad8286687abd}{%
+           family={McBratney},
+           familyi={M\bibinitperiod},
+           given={AB},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c0a7e2bf9862a2c5408b84d859d9b113}{%
+           family={Webster},
+           familyi={W\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8901e310b9c5a5be02bb72279b3fe616}{%
+           family={Burgess},
+           familyi={B\bibinitperiod},
+           given={TM},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7235041b7b27d3f2e1e144ef03793d8f}
+      \strng{fullhash}{7235041b7b27d3f2e1e144ef03793d8f}
+      \strng{bibnamehash}{7235041b7b27d3f2e1e144ef03793d8f}
+      \strng{authorbibnamehash}{7235041b7b27d3f2e1e144ef03793d8f}
+      \strng{authornamehash}{7235041b7b27d3f2e1e144ef03793d8f}
+      \strng{authorfullhash}{7235041b7b27d3f2e1e144ef03793d8f}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers \& Geosciences}
+      \field{number}{4}
+      \field{title}{The design of optimal sampling schemes for local estimation and mapping of of regionalized variables—I: Theory and method}
+      \field{volume}{7}
+      \field{year}{1981}
+      \true{nocite}
+      \field{pages}{331\bibrangedash 334}
+      \range{pages}{4}
+    \endentry
+    \entry{sinclair2002applied}{book}{}
+      \name{author}{2}{}{%
+        {{hash=200ac0806094eecd4ea3b71350149b19}{%
+           family={Sinclair},
+           familyi={S\bibinitperiod},
+           given={Alastair\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b876374da6d0c08cc29b59ed603e332f}{%
+           family={Blackwell},
+           familyi={B\bibinitperiod},
+           given={Garston\bibnamedelima H},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{7f1f5ce765f055226ece6319c36deb69}
+      \strng{fullhash}{7f1f5ce765f055226ece6319c36deb69}
+      \strng{bibnamehash}{7f1f5ce765f055226ece6319c36deb69}
+      \strng{authorbibnamehash}{7f1f5ce765f055226ece6319c36deb69}
+      \strng{authornamehash}{7f1f5ce765f055226ece6319c36deb69}
+      \strng{authorfullhash}{7f1f5ce765f055226ece6319c36deb69}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Applied mineral inventory estimation}
+      \field{year}{2002}
+      \true{nocite}
+    \endentry
+    \entry{wackernagel2013multivariate}{book}{}
+      \name{author}{1}{}{%
+        {{hash=aca0da94927ed1f0dcf608d0e56e1663}{%
+           family={Wackernagel},
+           familyi={W\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{aca0da94927ed1f0dcf608d0e56e1663}
+      \strng{fullhash}{aca0da94927ed1f0dcf608d0e56e1663}
+      \strng{bibnamehash}{aca0da94927ed1f0dcf608d0e56e1663}
+      \strng{authorbibnamehash}{aca0da94927ed1f0dcf608d0e56e1663}
+      \strng{authornamehash}{aca0da94927ed1f0dcf608d0e56e1663}
+      \strng{authorfullhash}{aca0da94927ed1f0dcf608d0e56e1663}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Multivariate geostatistics: an introduction with applications}
+      \field{year}{2013}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

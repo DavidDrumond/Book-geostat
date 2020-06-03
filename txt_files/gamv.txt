@@ -1,0 +1,31 @@
+                  Parameters for GAMV
+                  *******************
+
+START OF PARAMETERS:
+Walker_Lake.txt               -file with data
+1   2   0                     -columns for X, Y, Z coordinates
+1   3   	                  -number of variables,col numbers
+-1.0e21     1.0e21            -trimming limits
+Variograma_cobre.out          -file for variogram output
+10                            -number of lags
+10                            -lag separation distance
+5                             -lag tolerance
+2                             -number of directions
+157.5  45 10   0.0  45  10	  -azm,atol,bandh,dip,dtol,bandv
+67.5  45 10   0.0  45  10  	  -azm,atol,bandh,dip,dtol,bandv
+0                             -standardize sills? (0=no, 1=yes)
+1                             -number of variograms
+1   1   1                     -tail var., head var., variogram type
+
+
+
+type 1 = traditional semivariogram
+     2 = traditional cross semivariogram
+     3 = covariance
+     4 = correlogram
+     5 = general relative semivariogram
+     6 = pairwise relative semivariogram
+     7 = semivariogram of logarithms
+     8 = semimadogram
+     9 = indicator semivariogram - continuous
+     10= indicator semivariogram - categorical

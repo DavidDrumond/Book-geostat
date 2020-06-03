@@ -1,0 +1,21 @@
+> summary(kriged)
+Object of class SpatialPixelsDataFrame
+Coordinates:
+   min   max
+x1 7.5 252.5
+x2 7.5 292.5
+Is projected: NA 
+proj4string : [NA]
+Number of points: 2793
+Grid attributes:
+   cellcentre.offset cellsize cells.dim
+x1                10        5        49
+x2                10        5        57
+Data attributes:
+   var1.pred         var1.var    
+ Min.   :   0.0   Min.   :    0  
+ 1st Qu.: 125.7   1st Qu.:44914  
+ Median : 256.7   Median :55883  
+ Mean   : 295.5   Mean   :54525  
+ 3rd Qu.: 410.7   3rd Qu.:63748  
+ Max.   :1432.9   Max.   :89477 
